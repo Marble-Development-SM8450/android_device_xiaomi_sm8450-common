@@ -327,11 +327,15 @@
          relies on this value will not be sized correctly. -->
     <item format="float" name="pixel_pitch" type="dimen">64.37</item>
 
-    <!-- Whether to briefly keep the display in ON state when transitioning from
-         DOZE_AOD_PAUSED to DOZE_AOD state. -->
-    <bool name="config_displayTurnsOnWhenResumingAod">true</bool>
-
-    <!-- If not empty, sets the AVC codec profile level used for the internal screen recorder.
-         Possible values: 3, 3.1, 3.2, 4, 4.1, 4.2 -->
-    <string name="config_screenRecorderAVCProfileLevel" translatable="false">3.1</string>
+    <!-- The database synchronization mode when using Write-Ahead Logging.
+         From https://www.sqlite.org/pragma.html#pragma_synchronous:
+         WAL mode is safe from corruption with synchronous=NORMAL, and probably DELETE mode is safe
+         too on modern filesystems. WAL mode is always consistent with synchronous=NORMAL, but WAL
+         mode does lose durability. A transaction committed in WAL mode with
+         synchronous=NORMAL might roll back following a power loss or system crash.
+         Transactions are durable across application crashes regardless of the synchronous setting
+         or journal mode. The synchronous=NORMAL setting is a good choice for most applications
+         running in WAL mode.
+         Choices are: FULL, NORMAL, OFF. -->
+    <string name="db_wal_sync_mode" translatable="false">OFF</string>
 </resources>
