@@ -94,6 +94,17 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libinput_shim.so'),
     'system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so': blob_fixup()
         .replace_needed('libprotobuf-cpp-full.so', 'libprotobuf-cpp-full-21.7.so'),
+    (
+        'vendor/lib64/libagm.so',
+        'vendor/lib64/libmcs.so',
+        'vendor/lib64/libkaraokepal.so',
+        'vendor/lib64/libar-pal.so',
+        'vendor/lib64/libaudioroute_ext.so'
+    ): blob_fixup()
+        .replace_needed(
+            'libaudioroute.so',
+            'libaudioroute-v34.so'
+        ),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
