@@ -460,18 +460,6 @@
   ],
   "Actions": [
     {
-      "PowerHint": "INTERACTIVE",
-      "Node": "PredictionDisabled",
-      "Duration": 0,
-      "Value": "1"
-    },
-    {
-      "PowerHint": "INTERACTIVE",
-      "Node": "SleepDisabled",
-      "Duration": 0,
-      "Value": "1"
-    },
-    {
       "PowerHint": "SUSTAINED_PERFORMANCE",
       "Node": "PowerHALMainState",
       "Duration": 0,
@@ -522,7 +510,7 @@
     {
       "PowerHint": "INTERACTION",
       "Node": "UclampTAMin",
-      "Duration": 9000,
+      "Duration": 3500,
       "Value": "50"
     },
     {
@@ -534,7 +522,7 @@
     {
       "PowerHint": "INTERACTION",
       "Node": "UclampTALatency",
-      "Duration": 9000,
+      "Duration": 3000,
       "Value": "1"
     },
     {
@@ -620,6 +608,18 @@
       "Node": "L3MinFreq",
       "Duration": 200,
       "Value": "1267200"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "SleepDisabled",
+      "Duration": 300,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "PredictionDisabled",
+      "Duration": 300,
+      "Value": "1"
     },
     {
       "PowerHint": "INTERACTIVE",
@@ -758,6 +758,12 @@
       "Node": "L3MinFreq",
       "Duration": 1500,
       "Value": "1708800"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "SleepDisabled",
+      "Duration": 1500,
+      "Value": "1"
     },
     {
       "PowerHint": "LAUNCH",
