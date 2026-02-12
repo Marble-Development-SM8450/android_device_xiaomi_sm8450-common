@@ -696,13 +696,13 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "UclampTAMin",
-      "Duration": 1500,
+      "Duration": 1200,
       "Value": "50"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "UclampFGMin",
-      "Duration": 1500,
+      "Duration": 1200,
       "Value": "50"
     },
     {
@@ -756,7 +756,7 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "L3MinFreq",
-      "Duration": 1500,
+      "Duration": 1000,
       "Value": "1708800"
     },
     {
