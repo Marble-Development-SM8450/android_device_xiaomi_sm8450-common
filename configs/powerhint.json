@@ -547,7 +547,7 @@
     {
       "PowerHint": "INTERACTION",
       "Node": "UclampFGMin",
-      "Duration": 1500,
+      "Duration": 0,
       "Value": "30"
     },
     {
