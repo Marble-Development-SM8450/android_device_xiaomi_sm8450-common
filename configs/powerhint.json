@@ -508,6 +508,12 @@
       "Value": "439000000"
     },
     {
+      "PowerHint": "SUSTAINED_PERFORMANCE",
+      "Node": "GPUMinFreq",
+      "Duration": 0,
+      "Value": "364000000"
+    },
+    {
       "PowerHint": "INTERACTION",
       "Node": "GPUMinFreq",
       "Duration": 0,
