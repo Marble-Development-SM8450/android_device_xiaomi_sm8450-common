@@ -222,6 +222,7 @@
       "Values": [
         "0",
         "30",
+        "40",
         "50"
       ],
       "DefaultIndex": 0,
@@ -696,19 +697,19 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigPlusClusterMinFreq",
-      "Duration": 750,
+      "Duration": 1500,
       "Value": "2246400"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMinFreq",
-      "Duration": 750,
+      "Duration": 1500,
       "Value": "1881600"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPULittleClusterMinFreq",
-      "Duration": 750,
+      "Duration": 1500,
       "Value": "1555200"
     },
     {
@@ -721,7 +722,7 @@
       "PowerHint": "LAUNCH",
       "Node": "UclampTAMin",
       "Duration": 1200,
-      "Value": "50"
+      "Value": "40"
     },
     {
       "PowerHint": "LAUNCH",
