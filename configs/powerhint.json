@@ -708,49 +708,49 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBWHystTriggerCount",
-      "Duration": 1500,
+      "Duration": 2000,
       "Value": "0"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBWHystLength",
-      "Duration": 1500,
+      "Duration": 2000,
       "Value": "0"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBWHistMemory",
-      "Duration": 1500,
+      "Duration": 2000,
       "Value": "0"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBWMinFreq",
-      "Duration": 1500,
+      "Duration": 2000,
       "Value": "1555000"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "LLCCBWHystTriggerCount",
-      "Duration": 1500,
+      "Duration": 2000,
       "Value": "0"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "LLCCBWHystLength",
-      "Duration": 1500,
+      "Duration": 2000,
       "Value": "0"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "LLCCBWHistMemory",
-      "Duration": 1500,
+      "Duration": 2000,
       "Value": "0"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "LLCCBWMinFreq",
-      "Duration": 1500,
+      "Duration": 2000,
       "Value": "1066000"
     },
     {
@@ -774,8 +774,8 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "GPUIdleTimer",
-      "Duration": 1500,
-      "Value": "500"
+      "Duration": 2000,
+      "Value": "10000"
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
