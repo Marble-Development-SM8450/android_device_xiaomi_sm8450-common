@@ -799,8 +799,14 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "GPUMinFreq",
-      "Duration": 3000,
-      "Value": "364000000"
+      "Duration": 2000,
+      "Value": "439000000"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "GPUIdleTimer",
+      "Duration": 2000,
+      "Value": "10000"
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
