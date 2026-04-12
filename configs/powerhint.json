@@ -925,7 +925,7 @@
       "PowerHint": "DISPLAY_UPDATE_IMMINENT",
       "Node": "CPULittleClusterMinFreq",
       "Duration": 80,
-      "Value": "1056000"
+      "Value": "1132800"
     },
     {
       "PowerHint": "Flipendo",
