@@ -541,12 +541,6 @@
     },
     {
       "PowerHint": "INTERACTION",
-      "Node": "CPUBigPlusClusterMaxFreq",
-      "Duration": 0,
-      "Value": "1536000"
-    },
-    {
-      "PowerHint": "INTERACTION",
       "Node": "GPUMinFreq",
       "Duration": 0,
       "Value": "439000000"
