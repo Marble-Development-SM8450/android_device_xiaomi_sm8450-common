@@ -859,13 +859,13 @@
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "CPULittleClusterMinFreq",
       "Duration": 0,
-      "Value": "9999999"
+      "Value": "1324800"
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "CPUBigClusterMinFreq",
       "Duration": 0,
-      "Value": "9999999"
+      "Value": "1881600"
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
@@ -888,8 +888,8 @@
     {
       "PowerHint": "TOUCH_DOWN",
       "Node": "CPULittleClusterMinFreq",
-      "Duration": 100,
-      "Value": "1228800"
+      "Duration": 150,
+      "Value": "1324800"
     },
     {
       "PowerHint": "TOUCH_DOWN",
